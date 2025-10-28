@@ -24,7 +24,7 @@ const App: React.FC = () => {
   useEffect(() => {
     const fetchSettings = async () => {
       try {
-        const response = await fetch('/settings.json');
+        const response = await fetch('./settings.json');
         const data = await response.json();
         setSettings(data);
       } catch (e) {
