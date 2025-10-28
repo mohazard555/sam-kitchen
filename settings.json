@@ -1,0 +1,12 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "password123"
+  },
+  "ad": {
+    "enabled": true,
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1740&auto=format&fit=crop",
+    "description": "اكتشف عالمًا من النكهات. انقر هنا لتصفح أحدث معدات المطبخ.",
+    "link": "https://example.com"
+  }
+}

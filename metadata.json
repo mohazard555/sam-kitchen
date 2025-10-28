@@ -1,0 +1,5 @@
+{
+  "name": "AI Recipe Generator",
+  "description": "Generate delicious recipes based on the ingredients you have on hand. Specify cuisine types and dietary restrictions to get the perfect meal suggestion powered by Gemini.",
+  "requestFramePermissions": []
+}
