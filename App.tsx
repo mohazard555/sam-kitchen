@@ -136,7 +136,7 @@ const App: React.FC = () => {
         />
       )}
 
-      <main className="w-full max-w-4xl mx-auto space-y-8">
+      <main className="w-full max-w-5xl mx-auto space-y-8">
         <header className="text-center pt-16">
             <h1 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">
                 sam <span className="text-salmon">kitchen</span>
@@ -230,7 +230,7 @@ const App: React.FC = () => {
         <AdBanner ad={settings.ad} />
 
       </main>
-      <footer className="w-full max-w-4xl mx-auto text-center mt-8 py-4 border-t border-gray-700">
+      <footer className="w-full max-w-5xl mx-auto text-center mt-8 py-4 border-t border-gray-700">
         <p className="text-gray-500 text-sm">
           develop mohannad ahmad tel:+963998171954
         </p>
