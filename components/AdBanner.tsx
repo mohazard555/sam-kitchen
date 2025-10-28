@@ -1,5 +1,6 @@
+
 import React from 'react';
-import type { AdConfig } from '../types';
+import type { AdConfig } from '../types.ts';
 
 interface AdBannerProps {
   ad: AdConfig;

@@ -1,12 +1,13 @@
+
 import React, { useState, useCallback, useEffect } from 'react';
-import { generateRecipe } from './services/geminiService';
-import type { Recipe, AppSettings } from './types';
-import { CUISINE_OPTIONS, DIETARY_OPTIONS, MEAL_TYPE_OPTIONS } from './constants';
-import { RecipeCard } from './components/RecipeCard';
-import { LoadingSpinner } from './components/LoadingSpinner';
-import { ErrorMessage } from './components/ErrorMessage';
-import { Login } from './components/Login';
-import { AdBanner } from './components/AdBanner';
+import { generateRecipe } from './services/geminiService.ts';
+import type { Recipe, AppSettings } from './types.ts';
+import { CUISINE_OPTIONS, DIETARY_OPTIONS, MEAL_TYPE_OPTIONS } from './constants.ts';
+import { RecipeCard } from './components/RecipeCard.tsx';
+import { LoadingSpinner } from './components/LoadingSpinner.tsx';
+import { ErrorMessage } from './components/ErrorMessage.tsx';
+import { Login } from './components/Login.tsx';
+import { AdBanner } from './components/AdBanner.tsx';
 
 const App: React.FC = () => {
   const [settings, setSettings] = useState<AppSettings | null>(null);

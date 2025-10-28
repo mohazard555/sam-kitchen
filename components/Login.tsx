@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import type { AdminCredentials } from '../types';
+import type { AdminCredentials } from '../types.ts';
 
 interface LoginProps {
   onLoginSuccess: () => void;
